@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.optimizers import Adam
 
 # Step 1: Define Dataset Directory and Parameters
-data_dir = "E:/hand gesture/leapGestRecog"  # Update this to your dataset path
+data_dir = "D:/hand gesture/leapGestRecog"  # Update this to your dataset path
 img_size = (64, 64)  # Resize images to this size
 batch_size = 32
 
